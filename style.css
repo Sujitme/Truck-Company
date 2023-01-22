@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(122, 94, 112);
+}
+.navbar{
+    display: flex;
+     align-items: center;
+     padding: 40px;
+     margin-left: 50px;
+     justify-content: space-around;
+
+}
+.logo{
+    padding: 15px;
+   
+}
+nav{
+    flex: 1;
+    text-align: right;
+    background: aqua;
+    background-size: 20px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+nav u1 li a:hover{
+     color: rgb(255, 53, 53);
+}
+.hero{
+background-image: url(images/truck1.png);
+height:100vh;
+background-position: center;
+background-size: cover;
+}
+.container{
+    width: 50%;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container h1{
+    font-size: 72px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(44, 35, 28);
+}
+.btn{
+    padding-top: 30px;
+}
+.btn a{
+    background: rgb(79, 172, 66);
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn a:hover{
+    background-color: rgb(97 75 7);
+}
+.wrapper{
+    background: rgb(255, 154, 53)
+}
+.inner-wrapper{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+.inner-wrapper h1{
+    padding: 20px;
+}
+.about{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+}
+.about img{
+width: 100%;
+}
+.col-6{
+    width: 50%;
+}
+
+.desc{
+    padding: 20px;
+}
+.desc h1{
+    padding: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.inner-footer{
+    font-size: 22px;
+}
+social{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.social:hover{
+    color: aqua;
+}
+
